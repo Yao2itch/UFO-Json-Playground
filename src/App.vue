@@ -1,19 +1,19 @@
 <template>
   <div>
     <vue-file-toolbar-menu :content="my_menu"/>
-    <JsonEditorVue v-model="value" v-bind:class="classObject"/>
+    <JsonEditorVue v-model="value" v-bind:class="classObject"/>-->
   </div>
 </template>
 
 <script>
-import VueFileToolbarMenu from 'vue-file-toolbar-menu'
-import JsonEditorVue from 'json-editor-vue'
+  import VueFileToolbarMenu from 'vue-file-toolbar-menu'
+// import JsonEditorVue from 'json-editor-vue'
 
 export default {
   name: 'App',
   components: {
-    VueFileToolbarMenu,
-    JsonEditorVue
+    VueFileToolbarMenu
+    // JsonEditorVue
   },
   data() {
     return {}
